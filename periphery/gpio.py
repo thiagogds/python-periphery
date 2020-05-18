@@ -74,7 +74,7 @@ class GPIO(object):
         `read_event()`. For sysfs GPIOs, the edge event should be consumed with
         `read()`.
 
-        `timeout` can be a positive number for a timeout in seconds, 0 for a
+        `timeout` can be a positive number for a timeout in seconds, zero for a
         non-blocking poll, or negative or None for a blocking poll. Defaults to
         blocking poll.
 
